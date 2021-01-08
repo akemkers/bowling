@@ -1,5 +1,5 @@
 import range from 'lodash/range';
-import {isStrike, isSpare} from "../utils/gameCheckers";
+import {isStrike, isSpare} from "../bowlingGame/gameCheckers";
 import {BowlingFrameScore} from "../types";
 import {MAX_FRAMES} from "../constants";
 import styles from './ThrowScore.module.scss';

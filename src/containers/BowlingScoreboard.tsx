@@ -3,8 +3,8 @@ import range from 'lodash/range';
 import BowlingFrame from '../components/BowlingFrame';
 import RollInput from "../components/RollInput";
 import {BowlingFrameScore} from '../types';
-import { gameHasFinished } from "../utils/gameCheckers";
-import { updateScoresAfterRoll } from '../utils/scoreCalculator';
+import { gameHasFinished } from "../bowlingGame/gameCheckers";
+import { updateScoresAfterRoll } from '../bowlingGame/scoreCalculator';
 import styles from './BowlingScoreboard.module.scss';
 
 
