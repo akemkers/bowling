@@ -1,0 +1,22 @@
+.throwScoreWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.throwScore {
+  height: 3em;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.throwScoreLast {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}

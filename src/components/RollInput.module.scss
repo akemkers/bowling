@@ -1,0 +1,43 @@
+.field {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  margin-bottom: 0.5em;
+  color: white;
+  font-size: 22px;
+}
+
+.input {
+  margin-bottom: 1em;
+  background-color: #282c34;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0.5em;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.submit {
+  padding: 1.2em 1em;
+  font-size: 16px;
+  border-radius: 100%;
+  font-weight: bold;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+    transition: all 0.5s;
+  }
+}
+.error {
+  color: red;
+  font-size: 18px;
+}

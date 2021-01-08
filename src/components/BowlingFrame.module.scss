@@ -1,0 +1,18 @@
+.frameWrapper {
+  width: 8em;
+  height: 9em;
+
+  border: 1px solid white;
+  position: relative;
+}
+
+.frameNumber {
+  padding: 0.5em 0 0.5em 0;
+  margin: 0;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.frameTotal {
+  color: gold;
+}
